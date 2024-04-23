@@ -1,0 +1,12 @@
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\bin\Debug\net6.0\TestingLR2.deps.json
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\bin\Debug\net6.0\TestingLR2.dll
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\bin\Debug\net6.0\TestingLR2.pdb
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\TestingLR2.csproj.AssemblyReference.cache
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\TestingLR2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\TestingLR2.AssemblyInfoInputs.cache
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\TestingLR2.AssemblyInfo.cs
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\TestingLR2.csproj.CoreCompileInputs.cache
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\TestingLR2.dll
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\refint\TestingLR2.dll
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\TestingLR2.pdb
+C:\Users\burul\source\repos\TestingLR2\TestingLR2\obj\Debug\net6.0\ref\TestingLR2.dll
