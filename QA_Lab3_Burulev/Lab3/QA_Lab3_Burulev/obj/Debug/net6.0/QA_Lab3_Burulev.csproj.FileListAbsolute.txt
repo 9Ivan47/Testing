@@ -1,0 +1,15 @@
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\bin\Debug\net6.0\QA_Lab3_Burulev.exe
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\bin\Debug\net6.0\QA_Lab3_Burulev.deps.json
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\bin\Debug\net6.0\QA_Lab3_Burulev.runtimeconfig.json
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\bin\Debug\net6.0\QA_Lab3_Burulev.dll
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\bin\Debug\net6.0\QA_Lab3_Burulev.pdb
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.csproj.AssemblyReference.cache
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.AssemblyInfoInputs.cache
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.AssemblyInfo.cs
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.csproj.CoreCompileInputs.cache
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.dll
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\refint\QA_Lab3_Burulev.dll
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.pdb
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\QA_Lab3_Burulev.genruntimeconfig.cache
+C:\Users\burul\source\repos\QA_Lab3_Burulev\QA_Lab3_Burulev\obj\Debug\net6.0\ref\QA_Lab3_Burulev.dll

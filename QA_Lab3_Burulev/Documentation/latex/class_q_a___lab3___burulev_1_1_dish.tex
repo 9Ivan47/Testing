@@ -1,0 +1,132 @@
+\doxysection{QA\+\_\+\+Lab3\+\_\+\+Burulev.\+Dish Class Reference}
+\label{class_q_a___lab3___burulev_1_1_dish}\index{QA\_Lab3\_Burulev.Dish@{QA\_Lab3\_Burulev.Dish}}
+
+
+Класс Блюдо,является основным классом по отношению к Food\+Additive.  
+
+
+
+
+Collaboration diagram for QA\+\_\+\+Lab3\+\_\+\+Burulev.\+Dish\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{class_q_a___lab3___burulev_1_1_dish__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ Init} (string v1, int[$\,$] add1cost, int[$\,$] add1grams, int n)
+\begin{DoxyCompactList}\small\item\em Метод иницилизации параметров класса Dish, вызывающий метод Init класса Food\+Additive, для иницилизации его элементов \end{DoxyCompactList}\item 
+\label{class_q_a___lab3___burulev_1_1_dish_ad9c420674b0b4977d4b36f8016b03680} 
+void {\bfseries Display} ()
+\begin{DoxyCompactList}\small\item\em Метод вывода информации о блюде, вызывающий метод вывода информации для каждой пищевой добавки этого блюда \end{DoxyCompactList}\item 
+double \textbf{ calculate\+Total\+Cost} (double dish\+Weight, double base\+Cost)
+\begin{DoxyCompactList}\small\item\em Метод вычисления общей стоимости блюда \end{DoxyCompactList}\item 
+\textbf{ Food\+Additive} \textbf{ find\+Cheapest\+Additive} ()
+\begin{DoxyCompactList}\small\item\em Метод, определяющий самую дешевую добавку \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_q_a___lab3___burulev_1_1_dish_a01b753943e0146e1b049eac8d4ecd8df} 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Переменная с функцией получения имени из приватной переменной name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_q_a___lab3___burulev_1_1_dish_a32157ab9f95bac5a6b1fed8222574514} 
+string {\bfseries name}
+\item 
+\label{class_q_a___lab3___burulev_1_1_dish_a4347afc8d1439bc81a6804f995c5929f} 
+int {\bfseries Nk}
+\item 
+\label{class_q_a___lab3___burulev_1_1_dish_a853febbbe94508242fc5904aba855dff} 
+\textbf{ Food\+Additive}[$\,$] {\bfseries Kolvo}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс Блюдо,является основным классом по отношению к Food\+Additive. 
+
+\doxysubsection{Member Function Documentation}
+\label{class_q_a___lab3___burulev_1_1_dish_ae3220ea92893f8602169f3cc982ea41d} 
+\index{QA\_Lab3\_Burulev.Dish@{QA\_Lab3\_Burulev.Dish}!calculateTotalCost@{calculateTotalCost}}
+\index{calculateTotalCost@{calculateTotalCost}!QA\_Lab3\_Burulev.Dish@{QA\_Lab3\_Burulev.Dish}}
+\doxysubsubsection{calculateTotalCost()}
+{\footnotesize\ttfamily double QA\+\_\+\+Lab3\+\_\+\+Burulev.\+Dish.\+calculate\+Total\+Cost (\begin{DoxyParamCaption}\item[{double}]{dish\+Weight,  }\item[{double}]{base\+Cost }\end{DoxyParamCaption})}
+
+
+
+Метод вычисления общей стоимости блюда 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em dish\+Weight} & Вес блюда \\
+\hline
+\mbox{\texttt{ in}}  & {\em base\+Cost} & Стоимость единицы основных компонент блюда \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+возвращает общую стоимость блюда
+\end{DoxyReturn}
+Данный метод вычисляет значение общей стоимости блюда по формуле\+: $baseCost+\frac{minm[0]*dishWeight}{100}+\frac{minm[1]*dishWeight}{100}+\frac{minm[2]*dishWeight}{100}$.
+
+Код функции выглядит следубщим образом\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ calculateTotalCost(\textcolor{keywordtype}{double}\ dishWeight,\ \textcolor{keywordtype}{double}\ baseCost)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \textcolor{keywordtype}{double}[]\ minm\ =\ \textcolor{keyword}{new}\ \textcolor{keywordtype}{double}[3];}
+\DoxyCodeLine{\ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ Nk;\ i++)}
+\DoxyCodeLine{\ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ minm[i]\ =\ Kolvo[i].calculateCost();}
+\DoxyCodeLine{\ \ \ \}}
+\DoxyCodeLine{\ \ \ Console.WriteLine(\textcolor{stringliteral}{"{}\(\backslash\)nВес\ блюда:\ "{}}\ +\ dishWeight);}
+\DoxyCodeLine{\ \ \ Console.WriteLine(\textcolor{stringliteral}{"{}\(\backslash\)nСтоимость\ единицы\ основных\ компонент\ блюда:\ "{}}\ +\ baseCost);}
+\DoxyCodeLine{\ \ \ \textcolor{keywordtype}{double}\ sum\ =\ (baseCost\ +\ (minm[0]\ *\ dishWeight\ /\ 100)\ +\ (minm[1]\ *\ dishWeight\ /\ 100)\ +\ (minm[2]\ *\ dishWeight\ /\ 100));\ \ }
+\DoxyCodeLine{\ \ \ \textcolor{keywordflow}{return}\ sum;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Результат\+: \label{class_q_a___lab3___burulev_1_1_dish_ae7f42dfea2333ff72b3aafbf0d2e7ae7} 
+\index{QA\_Lab3\_Burulev.Dish@{QA\_Lab3\_Burulev.Dish}!findCheapestAdditive@{findCheapestAdditive}}
+\index{findCheapestAdditive@{findCheapestAdditive}!QA\_Lab3\_Burulev.Dish@{QA\_Lab3\_Burulev.Dish}}
+\doxysubsubsection{findCheapestAdditive()}
+{\footnotesize\ttfamily \textbf{ Food\+Additive} QA\+\_\+\+Lab3\+\_\+\+Burulev.\+Dish.\+find\+Cheapest\+Additive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод, определяющий самую дешевую добавку 
+
+\begin{DoxyReturn}{Returns}
+возвращает информацию о пищевой добавке с наименьшей стоимостью 
+\end{DoxyReturn}
+\label{class_q_a___lab3___burulev_1_1_dish_aa9702466f288ba2cfe019f22a976b6f9} 
+\index{QA\_Lab3\_Burulev.Dish@{QA\_Lab3\_Burulev.Dish}!Init@{Init}}
+\index{Init@{Init}!QA\_Lab3\_Burulev.Dish@{QA\_Lab3\_Burulev.Dish}}
+\doxysubsubsection{Init()}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3\+\_\+\+Burulev.\+Dish.\+Init (\begin{DoxyParamCaption}\item[{string}]{v1,  }\item[{int[$\,$]}]{add1cost,  }\item[{int[$\,$]}]{add1grams,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Метод иницилизации параметров класса Dish, вызывающий метод Init класса Food\+Additive, для иницилизации его элементов 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em v1} & Название блюда \\
+\hline
+\mbox{\texttt{ in}}  & {\em add1cost} & Массив стоимостей 1 гр. пищевых добавок \\
+\hline
+\mbox{\texttt{ in}}  & {\em add1grams} & Массив колличества грамм специй, добавляемых на 1 кг продукта \\
+\hline
+\mbox{\texttt{ in}}  & {\em n} & Колличество пищевых добавок \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Lab3/\+QA\+\_\+\+Lab3\+\_\+\+Burulev/Program.\+cs\end{DoxyCompactItemize}

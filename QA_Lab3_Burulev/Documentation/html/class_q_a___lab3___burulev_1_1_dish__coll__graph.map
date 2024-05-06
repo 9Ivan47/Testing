@@ -1,0 +1,5 @@
+<map id="QA_Lab3_Burulev.Dish" name="QA_Lab3_Burulev.Dish">
+<area shape="rect" id="Node000001" title="Класс Блюдо,является основным классом по отношению к FoodAdditive." alt="" coords="29,96,184,123"/>
+<area shape="rect" id="Node000002" href="$class_q_a___lab3___burulev_1_1_food_additive.html" title="Класс FoodAdditive, вспомогательный класс, для класса Dish." alt="" coords="5,5,208,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,48,109,95,104,95,104,48"/>
+</map>
